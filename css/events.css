@@ -1,0 +1,168 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171731;
+    color: #fff;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #303064;
+    border-radius: 5px;
+}
+
+body {
+    color: #171731;
+}
+
+section {
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #303064;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #171731;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.offers img {
+    width: 100%;
+    max-width: 250px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hue-rotate {
+    filter: hue-rotate(120deg); /* Cambia el tono de la imagen */
+}
+
+.offer-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.offer-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-item h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #303064;
+}
+
+.offer-item p {
+    font-size: 1.2rem;
+    color: #171731;
+}
+
+.offer-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #171731;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ver {
+    background-color: #17311d; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Elimina el borde del botón */
+    padding: 50px; /* Espacio interno del botón */
+    width: 45%; /* Hace que el botón ocupe un 70% del ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total del botón */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto según sea necesario */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el fondo */
+    text-align: center; /* Centra el texto dentro del botón */
+    background-image: url('https://www.nmas.com.mx/_next/image/?url=https%3A%2F%2Fstatic-live.nmas.com.mx%2Fnmas-news%2Fstyles%2Fcorte_16_9%2Fcloud-storage%2F2024-02%2Fatt-red-apagon-estados-unidos.jpg%3Fh%3D920929c4%26itok%3Dmxz3jUiY&w=1920&q=80');
+    background-blend-mode: multiply;
+    border-radius: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+button:hover{
+
+    background-color: #171831;
+    transform: scale(1.05);
+
+}

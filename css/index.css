@@ -1,0 +1,326 @@
+*{
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+header {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #171731;
+    color: #fff;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #303064;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #171731;
+}
+
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.highlight {
+    text-align: center; /* Asegura que los elementos dentro del contenedor se alineen en el centro */
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.highlight:hover, .highlight:focus {
+
+    transition: 0.5s;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    transform: translateY(-10px);
+
+}
+
+.highlight h3 {
+    margin-top: 0;
+}
+
+
+footer {
+    background-color: #171731;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+
+    padding: 50px;
+
+}
+
+.hero {
+    position: relative;
+    background-color: #000000;
+    height: 85vh; /* Altura del hero panel */
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    background-blend-mode: multiply;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+    opacity: 50%;
+}
+
+.hero .hero-content {
+    position: relative; /* Cambia a relativo para que el contenido se alinee correctamente */
+    z-index: 1; /* Asegura que el contenido esté por encima de la imagen */
+    text-align: center; /* Centra el texto dentro del hero-content */
+    color: #fff; /* Color del texto */
+    padding: 40px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.hero .hero-content h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.hero .hero-content p {
+    line-height: 2;
+}
+
+.hero .hero-content button {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background-color: dodgerblue;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 27px;
+}
+
+.highlight img {
+    display: block; /* Convierte la imagen en un bloque para aplicar márgenes automáticos */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    padding: 50px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0; /* Ajusta el margen superior e inferior según sea necesario */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.botones ul {
+    list-style: none; /* Elimina los marcadores de la lista */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones li {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    background-color: #17311d; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    border: none; /* Elimina el borde del botón */
+    padding: 100px; /* Espacio interno del botón */
+    width: 80%; /* Hace que el botón ocupe un 70% del ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total del botón */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto según sea necesario */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición en el fondo */
+    text-align: center; /* Centra el texto dentro del botón */
+    background-image: url('https://www.nmas.com.mx/_next/image/?url=https%3A%2F%2Fstatic-live.nmas.com.mx%2Fnmas-news%2Fstyles%2Fcorte_16_9%2Fcloud-storage%2F2024-02%2Fatt-red-apagon-estados-unidos.jpg%3Fh%3D920929c4%26itok%3Dmxz3jUiY&w=1920&q=80');
+    background-blend-mode: multiply;
+    border-radius: 20px;
+}
+
+.boton:hover {
+    background-color: #306433; /* Color de fondo al pasar el ratón */
+}
+
+.boton img{
+
+    display: none;
+
+}
+
+.mas{
+
+ justify-content: center;
+ text-align: center;
+ margin: 40px;
+
+}
+
+.buttons-section {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(2, 15%);
+    justify-content: center;
+    align-content: center;
+    gap: 20px; /* Añade un espacio entre los botones */
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.buttons-section button {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+
+
+.buttons-section button::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.buttons-section button:hover::after {
+    opacity: 1;
+}
+
+.buttons-section .btn1:hover {
+    z-index: 0;
+    box-shadow: -10px -10px 40px rgba(255, 0, 187, 0.589), 10px 10px 40px rgba(255, 174, 0, 0.564);
+}
+
+.buttons-section .btn2:hover {
+    z-index: 0;
+    box-shadow: -10px -10px 40px rgba(0, 242, 255, 0.589), 10px 10px 40px rgba(255, 0, 136, 0.564);
+}
+
+.buttons-section .btn3:hover {
+    z-index: 0;
+    box-shadow: -10px -10px 40px rgba(43, 0, 255, 0.589), 10px 10px 40px rgba(0, 47, 255, 0.564);
+}
+
+.buttons-section .btn4:hover {
+    z-index: 0;
+    box-shadow: -10px -10px 40px rgba(0, 255, 72, 0.589), 10px 10px 40px rgba(0, 255, 136, 0.564);
+}
+
+
+.buttons-section .btn1::after {
+    background-image: linear-gradient(to bottom right, #e600ff, #ffb300);
+}
+
+.buttons-section .btn2::after {
+    background-image: linear-gradient(to bottom right, #00eaff, #ff005d);
+}
+
+.buttons-section .btn3::after {
+    background-image: linear-gradient(to bottom right, #192677, #5732bb);
+}
+
+.buttons-section .btn4::after {
+    background-image: linear-gradient(to bottom right, #52f678, #32bb96);
+}
+
+.buttons-section button img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    z-index: 1;
+    justify-items: center;
+    filter: invert(100%);
+}
+
+h1{
+
+
+
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+       
+
+
+}

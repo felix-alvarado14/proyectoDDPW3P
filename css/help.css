@@ -1,0 +1,148 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* El contenedor principal ocupa todo el espacio disponible */
+main {
+    flex: 1;
+}
+
+header {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #171731;
+    color: #fff;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #303064;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales para el cuerpo del documento */
+body {
+    margin: 0;
+    padding: 0;
+    color: #171731;
+}
+
+section {
+    padding: 50px;
+    margin: 100px 20px;
+    border-radius: 20px;
+    position: relative; /* Necesario para el pseudo-elemento */
+    overflow: hidden; /* Asegura que el contenido no sobresalga del borde */
+    z-index: 1; /* Asegura que el contenedor esté por encima del pseudo-elemento */
+}
+
+section h1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1rem; /* Ajusta el espacio debajo del título si es necesario */
+}
+
+section p,
+section ol {
+    margin: 20px auto; /* Centra horizontalmente el bloque */
+    text-align: center;
+    font-size: 1em;
+}
+
+section ol {
+    padding-left: 0;
+    list-style-position: inside; /* Asegura que los marcadores estén dentro del bloque */
+    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+    text-align: left; /* Alinea el texto a la izquierda dentro del bloque centrado */
+}
+
+section ol li {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1em; /* Ajusta el tamaño del texto */
+    color: #171731; /* Color del texto */
+}
+
+section ol li::marker {
+    font-size: 1.5em; /* Tamaño más grande para los números */
+    font-weight: bold; /* Números en negrita */
+    color: #171731; /* Color de los números */
+}
+
+
+.AAA {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.AAA button {
+    text-align: center; /* Asegura que los elementos dentro del contenedor se alineen en el centro */
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+
+    transition: 0.5s;
+    background-color: #171731;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+
+footer {
+    background-color: #171731;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 50px;
+}
