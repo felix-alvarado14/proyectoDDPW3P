@@ -10,7 +10,6 @@ html, body {
     flex-direction: column;
 }
 
-/* El contenedor principal ocupa todo el espacio disponible */
 main {
     flex: 1;
 }

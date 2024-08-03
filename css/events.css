@@ -92,7 +92,7 @@ section p {
 
 .offers img {
     width: 100%;
-    max-width: 250px; /* Ajusta el tamaño máximo de la imagen */
+    max-width: 250px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
@@ -100,7 +100,7 @@ section p {
 }
 
 .hue-rotate {
-    filter: hue-rotate(120deg); /* Cambia el tono de la imagen */
+    filter: hue-rotate(120deg);
 }
 
 .offer-items {
@@ -144,16 +144,16 @@ footer {
 }
 
 .ver {
-    background-color: #17311d; /* Color de fondo del botón */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde del botón */
-    padding: 50px; /* Espacio interno del botón */
-    width: 45%; /* Hace que el botón ocupe un 70% del ancho del contenedor */
-    box-sizing: border-box; /* Incluye el padding en el tamaño total del botón */
-    font-size: 1.2rem; /* Ajusta el tamaño del texto según sea necesario */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    transition: background-color 0.3s ease; /* Efecto de transición en el fondo */
-    text-align: center; /* Centra el texto dentro del botón */
+    background-color: #17311d;
+    color: #fff;
+    border: none;
+    padding: 50px;
+    width: 45%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
     background-image: url('https://www.nmas.com.mx/_next/image/?url=https%3A%2F%2Fstatic-live.nmas.com.mx%2Fnmas-news%2Fstyles%2Fcorte_16_9%2Fcloud-storage%2F2024-02%2Fatt-red-apagon-estados-unidos.jpg%3Fh%3D920929c4%26itok%3Dmxz3jUiY&w=1920&q=80');
     background-blend-mode: multiply;
     border-radius: 20px;

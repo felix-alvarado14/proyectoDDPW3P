@@ -10,7 +10,6 @@ html, body {
     flex-direction: column;
 }
 
-/* El contenedor principal ocupa todo el espacio disponible */
 main {
     flex: 1;
 }
@@ -56,7 +55,6 @@ nav ul li a:focus {
     border-radius: 5px;
 }
 
-/* Estilos adicionales para el cuerpo del documento */
 body {
     margin: 0;
     padding: 0;
@@ -67,42 +65,42 @@ section {
     padding: 50px;
     margin: 100px 20px;
     border-radius: 20px;
-    position: relative; /* Necesario para el pseudo-elemento */
-    overflow: hidden; /* Asegura que el contenido no sobresalga del borde */
-    z-index: 1; /* Asegura que el contenedor esté por encima del pseudo-elemento */
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
 section h1 {
     position: relative;
     text-align: center;
-    margin-bottom: 1rem; /* Ajusta el espacio debajo del título si es necesario */
+    margin-bottom: 1rem;
 }
 
 section p,
 section ol {
-    margin: 20px auto; /* Centra horizontalmente el bloque */
+    margin: 20px auto;
     text-align: center;
     font-size: 1em;
 }
 
 section ol {
     padding-left: 0;
-    list-style-position: inside; /* Asegura que los marcadores estén dentro del bloque */
-    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
-    text-align: left; /* Alinea el texto a la izquierda dentro del bloque centrado */
+    list-style-position: inside;
+    max-width: 400px; 
+    text-align: left;
 }
 
 section ol li {
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 1em; /* Ajusta el tamaño del texto */
-    color: #171731; /* Color del texto */
+    font-size: 1em;
+    color: #171731;
 }
 
 section ol li::marker {
-    font-size: 1.5em; /* Tamaño más grande para los números */
-    font-weight: bold; /* Números en negrita */
-    color: #171731; /* Color de los números */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #171731;
 }
 
 
@@ -113,7 +111,7 @@ section ol li::marker {
 }
 
 .AAA button {
-    text-align: center; /* Asegura que los elementos dentro del contenedor se alineen en el centro */
+    text-align: center;
     margin: 0 10px;
     padding: 20px;
     background-color: #f4f4f4;

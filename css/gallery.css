@@ -10,7 +10,6 @@ html, body {
     flex-direction: column;
 }
 
-/* El contenedor principal ocupa todo el espacio disponible */
 main {
     flex: 1;
 }
@@ -94,8 +93,8 @@ section p {
 .gallery img {
     background-color: black;
     width: 100%;
-    height: 400px; /* Asegura que todas las imágenes tengan la misma altura */
-    object-fit: cover; /* Mantiene la relación de aspecto y llena el contenedor */
+    height: 400px;
+    object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -126,7 +125,6 @@ section p {
     padding: 20px 50px;
 }
 
-/* Estilos para la vista completa */
 .lightbox {
     display: none;
     position: fixed;

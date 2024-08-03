@@ -9,8 +9,8 @@ function toggleContent() {
 
 function changeColor(button) {
     const originalColor = button.style.backgroundColor;
-    button.style.backgroundColor = '#28a745'; // Cambiar a verde
+    button.style.backgroundColor = '#28a745';
     setTimeout(() => {
-        button.style.backgroundColor = originalColor; // Restaurar el color original después de 0.5 segundos
+        button.style.backgroundColor = originalColor;
     }, 500);
 }

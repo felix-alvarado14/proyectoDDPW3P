@@ -1,7 +1,7 @@
 /* Estilos globales */
 * {
     font-family: "Poppins", sans-serif;
-    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el tamaño total de los elementos */
+    box-sizing: border-box;
 }
 
 html, body {
@@ -12,13 +12,12 @@ html, body {
     flex-direction: column;
 }
 
-/* El contenedor principal ocupa todo el espacio disponible */
 main {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center; /* Centra verticalmente */
-    padding: 20px; /* Añade un poco de padding para que no esté pegado a los bordes */
+    align-items: center;
+    padding: 20px; 
 }
 
 header {
@@ -61,7 +60,6 @@ nav ul li a:focus {
     border-radius: 5px;
 }
 
-/* Estilos para el cuerpo del documento */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -109,7 +107,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between -2px 0 0;
-    min-height: 350px; /* Ajusta esta altura según sea necesario */
+    min-height: 350px;
 }
 
 .module {
@@ -124,12 +122,12 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 350px; /* Ajusta esta altura según sea necesario */
-    transition: transform 0.3s ease; /* Agrega la transición para el hover */
+    min-height: 350px;
+    transition: transform 0.3s ease;
 }
 
 .module-border-wrap:hover {
-    transform: scale(1.05); /* Aumenta el tamaño del contenedor en el hover */
+    transform: scale(1.05);
 }
 
 .product-item img {
@@ -148,7 +146,6 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #171731;
     color: #fff;
@@ -165,7 +162,6 @@ footer p {
     text-align: center;
 }
 
-/* Estilos para los botones de información */
 .info-toggle-btn {
     background-color: #171731;
     color: #fff;

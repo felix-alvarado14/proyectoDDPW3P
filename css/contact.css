@@ -129,7 +129,7 @@ form button:hover {
     grid-template-columns: repeat(2, 15%);
     justify-content: center;
     align-content: center;
-    gap: 20px; /* Añade un espacio entre los botones */
+    gap: 20px;
     justify-items: center;
     margin-top: 50px;
 }
